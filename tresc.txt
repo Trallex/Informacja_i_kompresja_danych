@@ -1,0 +1,1 @@
+﻿Napisz program w jezyku C++, który oceni prawdopodobieństwo wystąpienia litery ( i innych znaków interpunkcyjnych) w podanym tekście oraz prawdopodobieństwo par takich znaków.

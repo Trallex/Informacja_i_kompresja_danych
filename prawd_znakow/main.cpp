@@ -3,6 +3,8 @@
 string Fill();
 bool CharNotCounted(char x, vector <char> * in);
 double ShowPercentage(string x, char y);
+double ShowPairPercentage(string x, string y);
+bool PairNotCounted(string x, vector <string> * in);
 int main()
 {
     int NOChar=0;
@@ -24,6 +26,18 @@ int main()
             cout<<ShowPercentage(all, all[i])<<endl;
         }
     }
+    vector<string> pairs;
+    for(int i=0; i < all.length()-1; i++)
+    {
+        string temp = string()+all[i]+all[i+1];
+        if(PairNotCounted(temp, &pairs))
+        {
+            pairs.push_back(temp);
+            cout<<"Pair "<<temp<<" probability: ";
+            cout<<ShowPairPercentage(all, temp)<<endl;
+        }
+    }
+
     system("pause");
     return 0;
 }

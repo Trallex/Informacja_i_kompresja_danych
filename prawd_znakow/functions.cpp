@@ -33,3 +33,23 @@ double ShowPercentage(string x, char y)
             per++;
     return per/x.length();
 }
+
+bool PairNotCounted(string x, vector <string> * in)
+        {
+            vector<string>& vecRef = *in;
+            for(int i=0 ; i< vecRef.size(); i++)
+            {
+                if(x==vecRef[i])
+                    return false;
+            }
+            return true;
+        }
+double ShowPairPercentage(string x, string y)
+{
+
+    double per=0;
+    for(int i=0; i<x.length()-1; i++)
+        if(y[0]==x[i] && y[1]==x[i+1])
+            per++;
+    return per/x.length();
+}

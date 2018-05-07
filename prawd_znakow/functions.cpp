@@ -51,5 +51,5 @@ double ShowPairPercentage(string x, string y)
     for(int i=0; i<x.length()-1; i++)
         if(y[0]==x[i] && y[1]==x[i+1])
             per++;
-    return per/x.length();
+    return per/(x.length()-1);
 }

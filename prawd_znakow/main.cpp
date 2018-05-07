@@ -26,6 +26,7 @@ int main()
             cout<<ShowPercentage(all, all[i])<<endl;
         }
     }
+    system("pause");
     vector<string> pairs;
     for(int i=0; i < all.length()-1; i++)
     {

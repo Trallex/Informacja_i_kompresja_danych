@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1523478604 source:c:\users\jkuch_000\documents\projekty studia\inf i kom d\zad11\informacja_i_kompresja_danych\prawd_znakow\functions.cpp
+1525709005 source:c:\users\jkuch_000\documents\projekty studia\inf i kom d\zad11\informacja_i_kompresja_danych\prawd_znakow\functions.cpp
 	"lib.h"
 
 1523218285 c:\users\jkuch_000\documents\projekty studia\inf i kom d\zad11\informacja_i_kompresja_danych\prawd_znakow\lib.h
@@ -9,6 +9,6 @@
 	<cstdlib>
 	<string>
 
-1523478634 source:c:\users\jkuch_000\documents\projekty studia\inf i kom d\zad11\informacja_i_kompresja_danych\prawd_znakow\main.cpp
+1525709039 source:c:\users\jkuch_000\documents\projekty studia\inf i kom d\zad11\informacja_i_kompresja_danych\prawd_znakow\main.cpp
 	"lib.h"
 
